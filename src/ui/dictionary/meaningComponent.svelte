@@ -8,7 +8,7 @@
   export let word: string;
   export let definitions: Definition[];
   export let partOfSpeech: string;
-  let open = false;
+  let open = true;
 
   addEventListener("dictionary-collapse", (event: CustomEvent) => {
     open = event.detail.open as boolean;

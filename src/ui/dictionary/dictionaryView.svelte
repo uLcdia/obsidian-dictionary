@@ -49,7 +49,7 @@
     dispatchEvent(new Event("dictionary-open-api-switcher"));
   }
 
-  let detailsOpen = false;
+  let detailsOpen = true;
   function toggleContainer() {
     dispatchEvent(
       new CustomEvent("dictionary-collapse", {
